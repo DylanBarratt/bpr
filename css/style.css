@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--white);
+}
+
+header {
+  color: var(--white);
+  background-color: var(--orange);
+  height: 100vh;
+  min-height: 500px;
+}
+
+header .frame {
+  height: 87.5%;
+  width: 100%;
+  position: relative;
+}
+
+header img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 48px;
+  -webkit-animation: hoverA 1.5s infinite 0s linear;
+          animation: hoverA 1.5s infinite 0s linear;
+}
+
+header h1 a {
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header h1 a:hover {
+  color: #e7e7e7;
+}
+
+@-webkit-keyframes hoverA {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes hoverA {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+main {
+  height: 100vh;
+  min-height: 650px;
+  background-color: var(--white);
+  color: var(--purple);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div {
+  width: 70%;
+  margin-left: 15% !important;
+}
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+main h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+}
+
+main p {
+  text-align: center;
+  font-weight: 400;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--purple);
+  color: var(--white);
+  text-align: center;
+  font-weight: 200;
+}
+
+:root {
+  --orange: #f3693b;
+  --white: #ffffff;
+  --black: #000000;
+  --purple: #3d4073;
+}
+/*# sourceMappingURL=style.css.map */

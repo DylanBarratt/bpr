@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Bigger Picture Research</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="frame">
+                <img src="images/logo.png" alt="logo" />
+            </div>
+            <h1><a onclick="scrollDown()">&#11147;</a></h1>
+        </header>
+
+        <main id="main">
+            <div>
+                <img src="images/profilePic.jpg" alt="profile pic" />
+                <br />
+                <h2>Who Are We?</h2>
+                <br />
+                <p>
+                    Bigger Picture Research is a UK-based consultancy run by Jim Barratt, <br />
+                    providing services to the creative industries, arts and culture sectors <br />
+                    <br />
+                    Over the years we've worked with film production companies, distributors and exhibitors <br />
+                    as well as public agencies, funders and professional associations in the UK and internationally <br />
+                    <br />
+                    <b style="font-weight: 600;">We're always happy to discuss work assignments whether large or small</b>
+                </p>
+            </div>
+        </main>
+
+        <footer>
+            <b>Please call or email to discuss your requirements: </b><br />
+            <br />
+            <b>Jim Barratt</b><br />
+            +44(0)1446 781 144 <br />
+
+            jim (@) biggerpictureresearch (dot) com
+        </footer>
+
+        <script>
+            function scrollDown() {
+                var ele = document.getElementById("main");
+                ele.scrollIntoView({ behavior: "smooth", block: "end" });
+            }
+        </script>
+    </body>
+</html>
