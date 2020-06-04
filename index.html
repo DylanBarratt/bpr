@@ -10,14 +10,14 @@
     <body>
         <header>
             <div class="frame">
-                <img src="images/logo.png" alt="logo" />
+                <img src="images/logo.png" alt="logo" onclick="scrollDown()" />
             </div>
             <h1><a onclick="scrollDown()">&#709;</a></h1>
         </header>
 
         <main id="main">
             <div>
-                <img src="images/profilePic.jpg" alt="profile pic" />
+                <img src="images/profilePic.jpg" alt="profile pic" onclick="scrollDown2()" />
                 <br />
                 <h2>Who Are We?</h2>
                 <br />
@@ -30,10 +30,13 @@
                     <br />
                     <b style="font-weight: 600;">We're always happy to discuss work assignments whether large or small</b>
                 </p>
+                <br />
+                <br />
+                <h1><a onclick="scrollDown2()">&#709;</a></h1>
             </div>
         </main>
 
-        <footer>
+        <footer id="footer">
             <b>Please call or email to discuss your requirements: </b><br />
             <br />
             <b>Jim Barratt</b><br />
@@ -45,6 +48,11 @@
         <script>
             function scrollDown() {
                 var ele = document.getElementById("main");
+                ele.scrollIntoView({ behavior: "smooth", block: "end" });
+            }
+
+            function scrollDown2() {
+                var ele = document.getElementById("footer");
                 ele.scrollIntoView({ behavior: "smooth", block: "end" });
             }
         </script>
