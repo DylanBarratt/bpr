@@ -84,7 +84,7 @@ header h1 a:hover {
 }
 
 main {
-  height: 100vh;
+  height: 97.5vh;
   min-height: 650px;
   background-color: var(--white);
   color: var(--purple);
