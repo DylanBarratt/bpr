@@ -84,8 +84,8 @@ header h1 a:hover {
 }
 
 main {
-  height: 97.5vh;
-  min-height: 650px;
+  max-height: 97.5vh;
+  min-height: 825px;
   background-color: var(--white);
   color: var(--purple);
   display: -webkit-box;
@@ -136,6 +136,22 @@ main h1 a {
 
 main h1 a:hover {
   color: #666894;
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    min-height: 875px;
+  }
+  main p {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  main div {
+    width: 50%;
+    margin-left: 25% !important;
+  }
 }
 
 footer {

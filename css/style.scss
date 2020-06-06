@@ -65,8 +65,8 @@ header {
 }
 
 main {
-    height: 97.5vh;
-    min-height: 650px;
+    max-height: 97.5vh;
+    min-height: 825px;
 
     background-color: var(--white);
     color: var(--purple);
@@ -112,6 +112,24 @@ main {
         }
         a:hover {
             color: #666894;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    main {
+        min-height: 875px;
+        p {
+            text-align: left;
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    main {
+        div {
+            width: 50%;
+            margin-left: 25% !important;
         }
     }
 }
