@@ -22,15 +22,19 @@
                 <h2>Who Are We?</h2>
                 <br />
                 <p>
-                    Bigger Picture Research is a UK-based consultancy run by Jim Barratt, providing services to the creative industries, arts and culture sectors
+                    Bigger Picture Research is a UK-based consultancy run by Jim Barratt, providing services to the creative industries, arts and culture
+                    sectors
                     <br />
                     <br />
-                    Over the years we've worked with film production companies, distributors and exhibitors as well as public agencies, funders and professional associations
-                    in the UK and internationally
+                    <p id="words" class="0">EVALUATION</p>
+                    <br />
+                    Over the years we've worked with film production companies, distributors and exhibitors as well as public agencies, funders and professional
+                    associations in the UK and internationally
                     <br />
                     <br />
                     <b style="font-weight: 600;">We're always happy to discuss work assignments whether large or small</b>
                 </p>
+                
             </div>
         </main>
 
@@ -38,12 +42,15 @@
             <b>Please call or email to discuss your requirements: </b><br />
             <br />
             <b>Jim Barratt</b><br />
-            +44(0)1446 781 144 <br />
+            +44(0)7960 063 005 <br />
 
             jim (@) biggerpictureresearch (dot) com
         </footer>
 
         <script>
+            var wordsText = document.getElementById("words");
+            var words = ["evaluation", "business planning", "market intelligence", "field & desk research", "data analysis", "editorial & reporting"];
+
             function scrollDown() {
                 var ele = document.getElementById("main");
                 ele.scrollIntoView({ behavior: "smooth", block: "end" });
@@ -53,6 +60,23 @@
                 var ele = document.getElementById("footer");
                 ele.scrollIntoView({ behavior: "smooth", block: "end" });
             }
+
+            function changeWord() {
+                var i = wordsText.className;
+                console.log(i);
+
+                if (i == words.length - 1) {
+                    i = 0;
+                } else {
+                    i++;
+                }
+
+                wordsText.className = i;
+
+                wordsText.innerText = words[i].toUpperCase();
+            }
+
+            setInterval(changeWord, 1500);
         </script>
     </body>
 </html>

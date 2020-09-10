@@ -101,6 +101,15 @@ main div {
   margin-left: 15% !important;
 }
 
+main #words {
+  font-size: 42px;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  color: var(--orange);
+  opacity: 0.8;
+}
+
 main img {
   display: block;
   margin-left: auto;
@@ -144,6 +153,12 @@ main h1 a:hover {
   }
   main p {
     text-align: left;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  main #words {
+    font-size: 32px;
   }
 }
 

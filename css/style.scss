@@ -79,6 +79,15 @@ main {
         margin-left: 15% !important;
     }
 
+    #words {
+        font-size: 42px;
+        text-align: center;
+        font-weight: bold;
+        white-space: nowrap;
+        color: var(--orange);
+        opacity: 0.8;
+    }
+
     img {
         display: block;
         margin-left: auto;
@@ -121,6 +130,14 @@ main {
         min-height: 875px;
         p {
             text-align: left;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        #words {
+            font-size: 32px;
         }
     }
 }
