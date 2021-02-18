@@ -1,3 +1,4 @@
+/* v 1.1 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 * {
   padding: 0;
@@ -17,27 +18,19 @@ header {
   min-height: 500px;
 }
 
-header .frame {
-  height: 87.5%;
-  width: 100%;
-  position: relative;
-}
-
 header img {
-  max-height: 100%;
-  max-width: 100%;
-  width: 200px;
-  height: auto;
+  width: 30%;
+  min-width: 200px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+  cursor: pointer;
 }
 
 header h1 {
-  text-align: center;
   font-size: 38 px;
   -webkit-animation: hoverA 1.5s infinite 0s linear;
           animation: hoverA 1.5s infinite 0s linear;
@@ -94,6 +87,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 main div {
@@ -102,8 +96,7 @@ main div {
 }
 
 main #words {
-  font-size: 42px;
-  text-align: center;
+  font-size: 34px;
   font-weight: bold;
   white-space: nowrap;
   color: var(--orange);
@@ -121,17 +114,14 @@ main img {
 
 main h2 {
   font-size: 38px;
-  text-align: center;
   font-weight: 600;
 }
 
 main p {
-  text-align: center;
   font-weight: 400;
 }
 
 main h1 {
-  text-align: center;
   font-size: 32px;
   -webkit-animation: hoverA 1.5s infinite 0s linear;
           animation: hoverA 1.5s infinite 0s linear;
@@ -151,8 +141,9 @@ main h1 a:hover {
   main {
     min-height: 875px;
   }
-  main p {
-    text-align: left;
+  main div {
+    width: 85%;
+    margin-left: 7.5% !important;
   }
 }
 
