@@ -1,178 +1,178 @@
 /* v 1.1 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 * {
-  padding: 0;
-  margin: 0;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-  background-color: var(--white);
+    background-color: var(--white);
 }
 
 header {
-  color: var(--white);
-  background-color: var(--orange);
-  height: 100vh;
-  min-height: 500px;
+    color: var(--white);
+    background-color: var(--orange);
+    height: 100vh;
+    min-height: 500px;
 }
 
 header img {
-  width: 30%;
-  min-width: 200px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  cursor: pointer;
+    width: 30%;
+    min-width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
 }
 
 header h1 {
-  font-size: 38 px;
-  -webkit-animation: hoverA 1.5s infinite 0s linear;
-          animation: hoverA 1.5s infinite 0s linear;
+    font-size: 38 px;
+    -webkit-animation: hoverA 1.5s infinite 0s linear;
+    animation: hoverA 1.5s infinite 0s linear;
 }
 
 header h1 a {
-  color: var(--white);
-  text-decoration: none;
-  cursor: pointer;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 header h1 a:hover {
-  color: #e7e7e7;
+    color: #e7e7e7;
 }
 
 @-webkit-keyframes hoverA {
-  0% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
-  50% {
-    -webkit-transform: translateY(20%);
-            transform: translateY(20%);
-  }
-  100% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
+    0% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+    50% {
+        -webkit-transform: translateY(20%);
+        transform: translateY(20%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
 }
 
 @keyframes hoverA {
-  0% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
-  50% {
-    -webkit-transform: translateY(20%);
-            transform: translateY(20%);
-  }
-  100% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
+    0% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+    50% {
+        -webkit-transform: translateY(20%);
+        transform: translateY(20%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    }
 }
 
 main {
-  max-height: 97.5vh;
-  min-height: 825px;
-  background-color: var(--white);
-  color: var(--purple);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+    max-height: 97.5vh;
+    min-height: 825px;
+    background-color: var(--white);
+    color: var(--purple);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
 }
 
 main div {
-  width: 70%;
-  margin-left: 15% !important;
+    width: 70%;
+    margin-left: 15% !important;
 }
 
 main #words {
-  font-size: 34px;
-  font-weight: bold;
-  white-space: nowrap;
-  color: var(--orange);
-  opacity: 0.8;
+    font-size: 34px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: var(--orange);
+    opacity: 0.8;
 }
 
 main img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 main h2 {
-  font-size: 38px;
-  font-weight: 600;
+    font-size: 38px;
+    font-weight: 600;
 }
 
 main p {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 main h1 {
-  font-size: 32px;
-  -webkit-animation: hoverA 1.5s infinite 0s linear;
-          animation: hoverA 1.5s infinite 0s linear;
+    font-size: 32px;
+    -webkit-animation: hoverA 1.5s infinite 0s linear;
+    animation: hoverA 1.5s infinite 0s linear;
 }
 
 main h1 a {
-  color: var(--purple);
-  text-decoration: none;
-  cursor: pointer;
+    color: var(--purple);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 main h1 a:hover {
-  color: #666894;
+    color: #666894;
 }
 
 @media only screen and (max-width: 500px) {
-  main {
-    min-height: 875px;
-  }
-  main div {
-    width: 85%;
-    margin-left: 7.5% !important;
-  }
+    main {
+        min-height: 875px;
+    }
+    main div {
+        width: 85%;
+        margin-left: 7.5% !important;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-  main #words {
-    font-size: 32px;
-  }
+    main #words {
+        font-size: 32px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-  main div {
-    width: 50%;
-    margin-left: 25% !important;
-  }
+    main div {
+        width: 50%;
+        margin-left: 25% !important;
+    }
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: var(--purple);
-  color: var(--white);
-  text-align: center;
-  font-weight: 200;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    font-weight: 200;
 }
 
 :root {
-  --orange: #f3693b;
-  --white: #ffffff;
-  --black: #000000;
-  --purple: #3d4073;
+    --orange: #f3693b;
+    --white: #ffffff;
+    --black: #000000;
+    --purple: #3d4073;
 }
 /*# sourceMappingURL=style.css.map */
